@@ -1,0 +1,30 @@
+.page{display: grid;
+    height: auto;
+    grid-template-columns:100px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "hb hb sb sb";}
+    #headerbox{grid-area: hb;
+    display: block;}
+    #sidebarbox{grid-area: sb;}
+    .writeup{display: flex;
+    font-size: 25px;}
+    .pic{background-image: url("/images/Bby.jpg");
+    width: 300px;
+    width: 100px;
+    background-size: contain;}
+    @media(min-width:0%) and (max-width:500px){
+    .page{display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 400px 300px;
+    grid-template-areas:
+    "hb hb hb pc pc pc";}
+    #headerbox{grid-area: "hb";
+    height: auto;}
+    .writeup{font-size: 13px;}
+    #sidebar{border: 2px solid purple;}
+    .pic{      height: auto;
+    width: 150px;
+    background-image: url("/images/Bby.jpg");
+    background-size: contain;
+    grid-area: "pc";}}

@@ -1,0 +1,101 @@
+#man{font-size: 30px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;}
+    a{text-decoration: none;
+    color:goldenrod ;}
+    .container1{
+    display: grid;
+    width:auto;
+    height: auto;
+    margin: auto;
+    grid-template-columns: 80% 20%;
+    }
+    #box{
+    height: fit-content;     
+    }
+    .grid1a{height: 600px;
+    background-image: url("/images/American-Chopy-Suey.jpg");
+    background-size: contain;}
+    .grid1b{font-size: 20px;
+    font-style: italic;}
+    #sidebar{
+    color: red;
+    font-size: 30px;
+    }
+    #lists{
+    font-size: 30px;
+    }
+    #one:hover{color: red;}
+    #two:hover{color: red;}
+    #three:hover{color: red;}
+    #four:hover{color: red;}
+    #five:hover{color: red;}
+    #six:hover{color: red;}
+    #seven:hover{color: red;}
+    #eight:hover{color: red;}
+    #nine:hover{color: red;}
+    /*Links to diffeerent pages*/
+    #home{font-size: 25px;
+    font-style: oblique;
+    text-align: center;}
+    #home:hover{color: blue;}
+    #back{color: red;}
+    #back:hover{color: blue;}
+    #next{ color: red;
+    text-align: right;}
+    #next:hover{color: blue;}
+    /*small screen*/
+    @media(min-width:0%) and (max-width:500px){
+    #man{font-size: 20px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;}
+    a{text-decoration: none;
+    color:goldenrod ;}
+    .container1{
+    display: grid;
+    width:auto;
+    height: auto;
+    margin: auto;
+    grid-template-columns: 80% 20%;
+    }
+    #box{
+    height: fit-content;     
+    }
+    .grid1a{height: 400px;
+    background-image: url("/images/American-Chopy-Suey.jpg");
+    background-size: cover;}
+    .grid1b{font-size: 15px;
+    font-style: italic;}
+    #sidebar{
+    color: red;
+    font-size: 30px;
+    }
+    #lists{
+    font-size: 30px;
+    }
+    #one:hover{color: red;}
+    #two:hover{color: red;}
+    #three:hover{color: red;}
+    #four:hover{color: red;}
+    #five:hover{color: red;}
+    #six:hover{color: red;}
+    #seven:hover{color: red;}
+    #eight:hover{color: red;}
+    #nine:hover{color: red;}
+    /*Links to diffeerent pages*/
+    #home{font-size: 20px;
+    font-style: oblique;
+    text-align: center;}
+    #home:hover{color: blue;}
+    #back{color: red;}
+    #back:hover{color: blue;}
+    #next{ color: red;
+    text-align: right;}
+    #next:hover{color: blue;}
+    }

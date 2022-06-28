@@ -1,0 +1,432 @@
+@import url("no-1.css");
+@import url("no-2.css");
+@import url("no-3.css");
+@import url("no-4.css");
+@import url("no-5.css");
+@import url("no-6.css");
+@import url("no-7.css");
+@import url("no-8.css");
+@import url("no-9.css");
+@import url("no-10.css");
+
+
+    .top5{
+    background-color: black;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 35px;
+    }
+    a{text-decoration: none;
+    color: white;}
+    a:hover{color: red;}
+    
+    #my{font-size: 50px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+    border: 0.01px solid white;
+    
+    background-image: url("/images/back.jpg");}
+    
+    .container{
+    display: grid;
+    width:auto;
+    height:auto;
+    grid-template-columns: 50% 50%;
+    border: 1px ;
+    }
+    #box{border: 1px ;
+    height: 400px;}
+    .amz{color: gold;}
+    #blogpost{font-size: 50px;
+    color: blue;
+    text-decoration: underline;}
+    #blogpost:hover{color: red;}
+    #recentpost{font-size: 30px;
+    color: red;}
+    #recentpost:hover{color: blue;}
+    #cooking{font-style: italic;}
+    #glassman{font-size: 25px;
+    font-style: italic;}
+    .box2{
+    background-image: url("/images/food1.jpg");
+    background-size: cover;
+    }
+    .container2{ display: grid;
+    width: 100vw;
+    height:1400px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: 30vw;
+    grid-gap: 15px;
+    border: 1px;
+    justify-content: center;
+    }
+    #box2{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    }
+    .box3{
+    background-image: url('/images/American-Chopy-Suey.jpg');
+    background-size: cover;
+    color: white;
+    }
+    .box4{
+    background-image: url('/images/American\ Lasagna.jfif');
+    background-size: cover;
+    color: red;
+    }
+    .box5{
+    background-image: url('/images/karri.jpg');
+    background-size: cover;
+    color: white;
+    }
+    .container3{
+    display: grid;
+    width:auto;
+    height:auto;
+    grid-template-columns: 50% 50%;
+    ;
+    }
+    #glassman{color: blue;
+    font-size: 15px;}
+    #box3{
+    height: 400px;}
+    #sign{ 
+    font-family: calligraffitti;
+    text-align: center;
+    font-style: italic;
+    color: aqua;
+    }
+    .container5{
+    display: grid;
+    width:auto;
+    height:auto;
+    grid-template-columns: 50% 50%;
+    }
+    .nine{background-image: url("/images/Healthy-Eating-1.jpeg");}
+    .eight{font-size: 40px;
+    line-height: 80px;
+    font-weight: 900;}
+    #box5{height: 400px;}
+    #join{font-size:20px;
+    line-height: 30px;
+    font-weight: normal;}
+    .inputbox{font-style: italic;
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;}
+    button{background-color: rgb(226, 226, 226);
+    height: 35px;
+    border-radius: 10px;
+    width: 150px;
+    color: black;
+    font-style: italic;}
+    button:hover{background-color: red;
+    color: white;}
+    
+    
+    .container6{
+    display: grid;
+    width: 100vw;
+    height: 503px;
+    margin: auto;
+    border: 1px;
+    /* grid-template-columns:1fr 1fr  1fr 1fr 1fr ; (or just use thev one below) */
+    grid-template-columns: repeat(5, 1fr)
+    /* grid-template-columns:repeat(6, 1fr) */;
+    grid-auto-rows: minmax(40px, 230px);
+    /* grid-auto-column: minmax(100px, auto) */
+    grid-gap: 15px;
+    justify-content: center;}
+    #box6{
+    align-items: center;
+    justify-content:center;
+    height: 500px;
+    border: 1px;
+    font-size: 30px;
+    color: white;
+    }
+    .nestedgrid1{
+    display: grid;
+    grid-template-columns: 50% ;
+    grid-template-rows: 50% ;
+    }
+    #nest1{color: black;
+    background-color: rgb(226, 226, 226);
+    width: 433px;
+    height: 200px;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    }
+    .nestedgrid2{
+    display: grid;
+    grid-template-columns: 50% ;
+    grid-template-rows: 50% ;
+    }
+    #nest2{width: 433px;
+    height: 200px;
+    }
+    .nestedgrid3{
+    display: grid;
+    grid-template-columns: 50% ;
+    grid-template-rows: 50%;
+    }
+    #nest3{ width: 433px;
+    height: 200px;
+    }
+    .nestedgrid4{
+    display: grid;
+    grid-template-columns: 50% ;
+    grid-template-rows: 50%;
+    }
+    #nest4{
+    width: 433px;
+    height: 200px;
+    }
+    .nestedgrid5{
+    display: grid;
+    grid-template-columns: 50% ;
+    grid-template-rows: 50%;
+    }
+    #nest5{
+    width: 433px;
+    height: 200px;
+    }
+    .nestedgrid6{
+    display: grid;
+    grid-template-columns: 50% ;
+    grid-template-rows: 50% ;
+    }
+    #nest6{
+    width: 433px;
+    height: 200px;
+    }
+    .ten{
+    background-image: url('/images/ime3.jpg');
+    background-size: contain;
+    }
+    .eleven{
+    background-image: url('/images/choco.jpg');
+    background-size: contain;
+    }
+    .twelve{
+    background-image: url('/images/ime5.jpg');
+    background-size: contain;
+    }
+    .thirteen{
+    background-image: url('/images/worm.jpg');
+    background-size: 150%;
+    }
+    .fourteen{
+    background-image: url('/images/drink.jpg');
+    background-size: cover;
+    }
+
+
+    @media(min-width: 0px) and (max-width: 500px){
+     
+     
+      #my{font-size: 30px;
+        color: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        text-align: center;
+        justify-content: center;
+        border: 0.01px solid white;
+        background-image: url("/images/back.jpg");
+        background-size: contain;
+        width: auto;}
+    .top5{
+            background-color: black;
+            overflow: hidden;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            font-size: 27px;
+            }
+    .container{
+                display: grid;
+                width:auto;
+                height:auto;
+                grid-template-columns: 50% 50%;
+                border: 1px ;
+                }
+                #box{border: 1px ;
+                height: 400px;}
+                .amz{color: gold;}
+                #blogpost{font-size: 25px;
+                color: blue;
+                text-decoration: underline;}
+                #blogpost:hover{color: red;}
+                #recentpost{font-size: 25px;
+                color: red;}
+                #recentpost:hover{color: blue;}
+                #cooking{font-style: italic;
+                         font-size: 8px;}
+                #glassman{font-size: 11px;
+                font-style: italic;}
+                .box2{
+                background-image: url("/images/food1.jpg");
+                background-size: cover;
+                }
+    
+    .container2{    display: grid;
+                    width: 100vw;
+                    height:1400px;
+                    grid-template-columns: repeat(3, 300px);
+                    grid-template-columns: 30vw;
+                    grid-gap: 15px;
+                    border: 1px;
+                    justify-content: center;
+                    }
+                    #box2{
+                    display:flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    }
+                    .box3{
+                    background-image: url('/images/American-Chopy-Suey.jpg');
+                    background-size: contain;
+                    color: white;
+                    text-align: center;
+                    }
+                    .box4{
+                    background-image: url('/images/American\ Lasagna.jfif');
+                    background-size: contain;
+                    color: red;
+                    text-align: center;
+                    }
+                    .box5{
+                    background-image: url('/images/karri.jpg');
+                    background-size: contain;
+                    color: white;
+                    text-align: center;
+                    }
+    
+    .container3{
+                        display: grid;
+                        width:auto;
+                        height:auto;
+                        grid-template-columns: 50% 50%;
+                        }
+                        #glassman{color: blue;
+                        font-size: 10px;}
+                        /*#box3{
+                          height: 400px;}*/
+                        #sign{ 
+                        font-family: calligraffitti;
+                        text-align: center;
+                        font-style: italic;
+                        color: aqua;
+               }
+    
+    .container4{           display: grid;
+                            width:auto;
+                            height: auto;
+                            margin: auto;
+                            /* grid-template-columns:1fr 1fr  1fr 1fr 1fr ; (or just use thev one below) */
+                            grid-template-columns: repeat(3, 1fr);
+                            /* grid-template-columns:repeat(6, 1fr) */;
+                            grid-auto-columns: auto;
+                            /* grid-auto-column: minmax(100px, auto) */
+                            grid-gap: 10px;
+                            justify-content: center;
+                            text-align: center;
+                            }
+                           
+                            #box4{
+                            display: flex;
+                            align-items: center;
+                            justify-content:center;}
+    
+                            .grid1a{ background-image: url('/images/spag1.webp');
+                            background-size: cover;
+                            }
+                            .grid2a{
+                            background-image: url("/images/soup\ 2.jfif");
+                            background-size: contain;
+                            }
+                            .grid3a{
+                            background-image: url('/images/meatball.jpg');
+                            background-size: contain;
+                            background-position: 1000%;
+                            }
+                            .grid4a{
+                            background-image: url('/images/tea\ 2.jpg');
+                            background-size: cover;
+                            }
+                            .grid5a{
+                            background-image: url('/images/fruity.jfif');
+                            background-size: contain;
+                            }
+                            .grid6a{
+                            background-image: url('/images/rooibos.jfif');
+                            background-size: cover;
+                            }
+    
+.container5{
+                                display: grid;
+                                width:auto;
+                                height:auto;
+                                grid-template-columns: 50% 50%;
+                                }
+                                .nine{background-image: url("/images/Healthy-Eating-1.jpeg");}
+                                .eight{font-size: 40px;
+                                line-height: 80px;
+                                font-weight: 900;}
+                                #box5{height: 400px;}
+                                #join{font-size:20px;
+                                line-height: 30px;
+                                font-weight: normal;}
+                                .inputbox{font-style: italic;
+                                width: 350px;
+                                height: 30px;
+                                border-radius: 10px;}
+                                button{background-color: rgb(226, 226, 226);
+                                height: 35px;
+                                border-radius: 10px;
+                                width: 100px;
+                                color: black;
+                                font-style: italic;}
+                                button:hover{background-color: red;
+                                color: white;}}
+ .container0{display: grid;
+                                  width:auto;
+                                  height: auto;
+                                  margin: auto;
+                                  border: 1px;
+                                  /* grid-template-columns:1fr 1fr  1fr 1fr 1fr ; (or just use thev one below) */
+                                  grid-template-columns: repeat(3, auto)
+                                  /* grid-template-columns:repeat(6, 1fr) */;
+                                  grid-auto-rows: minmax(auto, auto);
+                                  /* grid-auto-column: minmax(100px, auto) */
+                                  grid-gap: 10px;
+                                  justify-content: center;
+                                  text-align: center;
+                                  }
+                                  #box0{
+                                  display: flex;
+                                  align-items: center;
+                                  justify-content:center;}
+                                  .FACEBOOK{
+                                  background-image: url('/images/facebook.png');
+                                  background-size: cover;
+                                  height: 30px;
+                                  width: 30px }
+                                  .twitter{
+                                  background-image: url("/images/twitter.webp");
+                                  background-size: cover;
+                                  height: 30px;
+                                  width: 30px;}                
+                                  .linkedln{
+                                  background-image: url('/images/link.png');
+                                  background-size: cover;
+                                  height: 30px;
+                                  width: 30px;}
+                                                                 
